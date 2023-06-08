@@ -26,7 +26,7 @@ export default function AboutPage() {
       <p>
         As for my professional goals, I plan on deepening my proficiency with current RPA tools and languages and aim to complete several certifications this year. Long-term, I see myself as a recognized expert in RPA technology, mentoring other developers, and leading high-performing teams.
       </p>
-      <br />z
+      <br />
       <p>
         Feel free to get in touch with me through <a href="https://www.linkedin.com/in/harley-gilpin/"><u>LinkedIn</u></a> for any potential opportunities or collaborations. I look forward to connecting with you!
       </p>
