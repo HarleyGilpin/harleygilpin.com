@@ -22,10 +22,10 @@ const navItems = {
 
 function Logo() {
   return (
-    <Link aria-label="Lee Robinson" href="/">
+    <Link aria-label="Harley Gilpin" href="/">
       <motion.svg
         className="text-black dark:text-white h-[25px] md:h-[37px]"
-        width="25"
+        width="50"
         height="37"
         viewBox="0 0 232 316"
         fill="none"
@@ -50,15 +50,36 @@ function Logo() {
           strokeWidth={78}
         />
         <motion.path
-          initial={{ x: -200, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
+          initial={{
+            opacity: 0,
+            pathLength: 0,
+          }}
+          animate={{
+            opacity: 1,
+            pathLength: 1,
+          }}
           transition={{
+            delay: 0.5,
             duration: 0.5,
             type: 'spring',
             stiffness: 50,
           }}
-          d="M232 314.998H129.852L232 232.887V314.998Z"
-          fill="currentColor"
+          d="M193 158H39"
+          stroke="currentColor"
+          strokeWidth={78}
+        />
+        <motion.path
+          initial={{ x: -200, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{
+            delay: 1,
+            duration: 0.5,
+            type: 'spring',
+            stiffness: 50,
+          }}
+          d="M193 316V0"
+          stroke="currentColor"
+          strokeWidth={78}
         />
       </motion.svg>
     </Link>

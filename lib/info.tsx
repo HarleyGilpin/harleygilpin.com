@@ -1,22 +1,18 @@
 import me from '../app/avatar.jpg';
 
-export const name = 'Lee Robinson';
+export const name = 'Harley Gilpin';
 export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm Lee. I'm the <b>VP of Developer Experience at Vercel</b> where my
-      team helps developers build a faster web.
+      Hey, I'm Harley, I'm a <b>Business Process Automation Developer at Armanino</b>. Driving organizational efficiency and growth by developing robust, innovative solutions that streamline business processes. 
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      I'm a Next.js contributor and help lead our open-source communities. I'm
-      passionate about frontend development and have created courses on React,
-      Next.js, and web development. I'm an advisor and investor in early stage
-      startups.
+      As a full-stack developer with a passion for gaming and technology, I actively contribute to open-source multiplayer game development projects, delivering comprehensive solutions that enhance gameplay, user interface, and server functionality. My diverse coding expertise allows me to create seamless, engaging experiences, ensuring the game runs smoothly across various platforms. In addition to traditional gaming environments, I also explore and build immersive Virtual Reality (VR) experiences, leveraging the latest VR technologies to pioneer new ways for users to interact and engage within the gaming world. Through my contributions, I continuously strive to push the boundaries of gaming technology and offer players novel, unforgettable experiences.
     </>
   );
 };

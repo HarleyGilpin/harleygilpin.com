@@ -1,88 +1,35 @@
-import type { Metadata } from 'next';
-import {
-  GitHubIcon,
-  YoutubeIcon,
-  ArrowIcon,
-  TwitterIcon,
-} from 'components/icons';
-
-export const metadata: Metadata = {
-  title: 'About',
-  description: 'VP of Developer Experience at Vercel.',
-};
-
 export default function AboutPage() {
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif">About Me</h1>
       <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        Hey, I'm Lee. Most folks know me as <b>leerob</b> online.
+        Hello there! I'm Harley, but most people know me as <b>Pixel</b> online.
       </p>
-      <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
-        <p>
-          I'm currently the <b>VP of Developer Experience at Vercel</b>, where I
-          lead our Developer Relations and Documentation teams. I focus on{' '}
-          <b>educating and growing</b> the Vercel and Next.js communities.
-        </p>
-        <hr />
-        <p>
-          I'm passionate about many creative pursuits, including music,
-          photography, videography, and of course, coding. This combination of
-          interests is what ultimately led me to my current role in building
-          developer communities.
-        </p>
-        <p>
-          I <b>love</b> building for the web. From something as simple as a
-          single HTML file – all the way to large Next.js applications. The web
-          is incredible. Anyone can become a developer, writer, or creator – and
-          no one has to ask for permission. You can just build.
-        </p>
-        <p className="mb-8">
-          Outside of Vercel, I <b>angel invest</b> in developer tools companies
-          and <b>advise early-stage startups</b>. I also do Developer Relations
-          consulting work, helping companies take their DevRel function from 0
-          to 1, or provide guidance on growing communities, content creation,
-          and developer marketing.
-        </p>
-        <div className="flex flex-col gap-2 md:flex-row md:gap-2">
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://twitter.com/leeerob"
-            className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
-          >
-            <div className="flex items-center">
-              <TwitterIcon />
-              <div className="ml-3">Twitter</div>
-            </div>
-            <ArrowIcon />
-          </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/leerob"
-            className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
-          >
-            <div className="flex items-center">
-              <GitHubIcon />
-              <div className="ml-3">GitHub</div>
-            </div>
-            <ArrowIcon />
-          </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.youtube.com/@leerob"
-            className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
-          >
-            <div className="flex items-center">
-              <YoutubeIcon />
-              <div className="ml-3">YouTube</div>
-            </div>
-            <ArrowIcon />
-          </a>
-        </div>
-      </div>
+      <p>
+        I'm a seasoned full-stack developer from Eugene, Oregon with a versatile professional background. My journey began at Bushnell University, where I majored in Business Management and Administration. From there, I expanded into freelance software development and digital marketing, and for the past 18 months, I've been an RPA Developer at Armanino.
+      </p>
+      <br />
+      <hr />
+      <br />
+      <p>
+        Over the past 12 years, I've honed my skills in various programming languages and frameworks, including Python, Kotlin, Java, HTML/CSS, React, and Node.js. I am also a certified Microsoft Power Platform professional. My career so far has been marked by a strong focus on precision, efficiency, and innovation, traits that have been instrumental in my role as an RPA developer.
+      </p>
+      <br />
+      <p>
+        One of my most notable projects was the importation of the 890 Jump Super Yacht starship from the game Star Citizen into VR Chat, a project that required intricate texturing work and presented numerous lighting challenges. I'm proud to share that it was received positively, garnering reviews from content creators (<a href="https://www.tiktok.com/@citizenred/video/7111750272782716166"><u>TikTok</u></a> and <a href="https://www.youtube.com/watch?v=aWAfU1_tA9Y"><u>YouTube</u></a>).
+      </p>
+      <br />
+      <p>
+        Outside of my professional pursuits, I am an avid gamer and technology enthusiast. I contribute actively to open-source multiplayer game development projects and am passionate about creating innovative and immersive VR experiences.
+      </p>
+      <br />
+      <p>
+        As for my professional goals, I plan on deepening my proficiency with current RPA tools and languages and aim to complete several certifications this year. Long-term, I see myself as a recognized expert in RPA technology, mentoring other developers, and leading high-performing teams.
+      </p>
+      <br />z
+      <p>
+        Feel free to get in touch with me through <a href="https://www.linkedin.com/in/harley-gilpin/"><u>LinkedIn</u></a> for any potential opportunities or collaborations. I look forward to connecting with you!
+      </p>
     </section>
   );
 }

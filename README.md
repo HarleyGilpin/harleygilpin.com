@@ -1,6 +1,6 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fleerob.io)
 
-# leerob.io
+# harleygilpin.com
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [PlanetScale](https://planetscale.com)
@@ -25,8 +25,8 @@ You can learn more about the `app/` directory [here](https://beta.nextjs.org/doc
 This application requires Node.js v16.13+.
 
 ```bash
-git clone https://github.com/leerob/leerob.io.git
-cd leerob.io
+git clone https://github.com/HarleyGilpin/nextjs-portfolio.git
+cd nextjs-portfolio
 pnpm install
 pnpm run setup # Remove all of my personal information
 pnpm dev
@@ -37,3 +37,26 @@ Create a `.env` file similar to [`.env.example`](https://github.com/leerob/leero
 ## Cloning / Forking
 
 Please review the [license](https://github.com/leerob/leerob.io/blob/main/LICENSE.txt) and remove all of my personal information (resume, blog posts, images, etc.) by running `pnpm run setup`.
+
+## PlanetScale Database Setup
+
+**guestbook table**
+
+```sql
+CREATE TABLE guestbook (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(255),
+  body TEXT,
+  created_by VARCHAR(255),
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+```
+
+**views table**
+
+```sql
+CREATE TABLE views (
+  slug VARCHAR(255) PRIMARY KEY,
+  count INT
+);
+```
