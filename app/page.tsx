@@ -47,7 +47,7 @@ export default async function HomePage() {
             className="flex items-center gap-2"
           >
             <TwitterIcon />
-            {`${tweetCount.toLocaleString()} tweets all time`}
+            {`${tweetCount?.toLocaleString() || 0} tweets all time`}
           </a>
           <a
             rel="noopener noreferrer"
@@ -56,11 +56,11 @@ export default async function HomePage() {
             className="flex items-center gap-2"
           >
             <GitHubIcon />
-            {`${starCount.toLocaleString()} stars on this repo`}
+            {`${starCount?.toLocaleString() || 0} stars on this repo`}
           </a>
           <Link href="/blog" className="flex items-center">
             <ViewsIcon />
-            {`${views.toLocaleString()} blog views all time`}
+            {`${views?.toLocaleString() || 0} blog views all time`}
           </Link>
         </div>
       </div>
