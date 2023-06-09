@@ -12,13 +12,12 @@ import { name, about, bio, avatar } from 'lib/info';
 export const revalidate = 60;
 
 export default async function HomePage() {
-  let starCount, views, tweetCount;
+  let starCount, views;
 
   try {
-    [starCount, views, tweetCount] = await Promise.all([
+    [starCount, views] = await Promise.all([
       getStarCount(),
       getBlogViews(),
-      getTweetCount(),
     ]);
   } catch (error) {
     console.error(error);
@@ -43,24 +42,15 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/harleygilpin"
-            className="flex items-center gap-2"
-          >
-            <TwitterIcon />
-            {`${tweetCount?.toLocaleString() || 0} tweets all time`}
-          </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
             href="https://github.com/harleygilpin"
             className="flex items-center gap-2"
           >
             <GitHubIcon />
-            {`${starCount?.toLocaleString() || 0} stars on this repo`}
+            {`${(starCount || 0).toLocaleString()} stars on this repo`}
           </a>
           <Link href="/blog" className="flex items-center">
             <ViewsIcon />
-            {`${views?.toLocaleString() || 0} blog views all time`}
+            {`${(views || 0).toLocaleString()} blog views all time`}
           </Link>
         </div>
       </div>

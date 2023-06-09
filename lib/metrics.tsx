@@ -5,11 +5,12 @@ import { queryBuilder } from 'lib/planetscale';
 import { cache } from 'react';
 
 export const getBlogViews = cache(async () => {
-
   const data = await queryBuilder
     .selectFrom('views')
     .select(['count'])
     .execute();
+    
+  console.log(data);  // debug line
 
   return data.reduce((acc, curr) => acc + Number(curr.count), 0);
 });
