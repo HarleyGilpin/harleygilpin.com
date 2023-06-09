@@ -5,9 +5,6 @@ import { queryBuilder } from 'lib/planetscale';
 import { cache } from 'react';
 
 export const getBlogViews = cache(async () => {
-  if (!process.env.TWITTER_API_TOKEN) {
-    return 0;
-  }
 
   const data = await queryBuilder
     .selectFrom('views')
@@ -19,7 +16,7 @@ export const getBlogViews = cache(async () => {
 
 export async function getTweetCount() {
   if (!process.env.TWITTER_API_TOKEN) {
-    return 0;
+    return 1;
   }
 
   const response = await fetch(
