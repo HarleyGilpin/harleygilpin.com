@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico',
   },
   verification: {
-    google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
+    google: 'U35wTO9xwUm-DVSF9AIdSFv4vHu-Hb9ZyTWVdB9I25Y',
     yandex: '14d2e73487fa6c71',
   },
 };
