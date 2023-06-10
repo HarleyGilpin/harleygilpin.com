@@ -1,4 +1,4 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/HarleyGilpin/nextjs-portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/HarleyGilpin/harleygilpin.com)
 
 # harleygilpin.com
 
@@ -25,18 +25,18 @@ You can learn more about the `app/` directory [here](https://beta.nextjs.org/doc
 This application requires Node.js v16.13+.
 
 ```bash
-git clone https://github.com/HarleyGilpin/nextjs-portfolio.git
+git clone https://github.com/HarleyGilpin/harleygilpin.com.git
 cd nextjs-portfolio
 pnpm install
 pnpm run setup # Remove all of my personal information
 pnpm dev
 ```
 
-Create a `.env` file similar to [`.env.example`](https://github.com/HarleyGilpin/nextjs-portfolio/blob/main/.env.example).
+Create a `.env` file similar to [`.env.example`](https://github.com/HarleyGilpin/harleygilpin.com/blob/main/.env.example).
 
 ## Cloning / Forking
 
-Please review the [license](https://github.com/leerob/leerob.io/blob/main/LICENSE.txt) and remove all of my personal information (resume, blog posts, images, etc.) by running `pnpm run setup`.
+Please review the [license](github.com/HarleyGilpin/harleygilpin.com/blob/main/LICENSE.txt) and remove all of my personal information (resume, blog posts, images, etc.) by running `pnpm run setup`.
 
 ## PlanetScale Database Setup
 
