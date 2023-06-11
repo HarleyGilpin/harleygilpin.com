@@ -24,11 +24,11 @@ export default function AboutPage() {
       <hr />
       <br />
       <p>
-        Over the past 12 years, I've honed my skills in various programming languages and frameworks, including Python, Kotlin, Java, HTML/CSS, React, and Node.js. I am also a certified Microsoft Power Platform professional. My career so far has been marked by a strong focus on precision, efficiency, and innovation, traits that have been instrumental in my role as an RPA developer.
+        Over the past 12 years, I've honed my skills in various programming languages and frameworks, including Python, Kotlin, Java, HTML/CSS, React, and Node.js. I am also a certified Microsoft Power Platform professional. I have successfully used technical proficiency, adaptability, and problem-solving skills in my career as an RPA developer.
       </p>
       <br />
       <p>
-        One of my most notable projects was the importation of the 890 Jump Super Yacht starship from the game Star Citizen into VR Chat, a project that required intricate texturing work and presented numerous lighting challenges. I'm proud to share that it was received positively, garnering reviews from content creators (<a href="https://www.tiktok.com/@citizenred/video/7111750272782716166"><u>TikTok</u></a> and <a href="https://www.youtube.com/watch?v=aWAfU1_tA9Y"><u>YouTube</u></a>).
+        As for my professional goals, I plan on deepening my proficiency with current RPA tools and languages and aim to complete several certifications this year. Long-term, I see myself as a recognized expert in RPA technology, mentoring other developers, and leading high-performing teams.
       </p>
       <br />
       <p>
@@ -36,7 +36,7 @@ export default function AboutPage() {
       </p>
       <br />
       <p>
-        As for my professional goals, I plan on deepening my proficiency with current RPA tools and languages and aim to complete several certifications this year. Long-term, I see myself as a recognized expert in RPA technology, mentoring other developers, and leading high-performing teams.
+        One of my most notable projects was the importation of the <a href="https://vrchat.com/home/launch?worldId=wrld_c4a883c9-c288-4b45-ab98-19df9e498991"><u>890 Jump Super Yacht</u></a> from the game Star Citizen into VR Chat, a project that required intricate texturing work and presented numerous lighting challenges. I'm proud to share that it was received positively, garnering reviews from content creators (<a href="https://www.tiktok.com/@citizenred/video/7111750272782716166"><u>TikTok</u></a> and <a href="https://www.youtube.com/watch?v=aWAfU1_tA9Y"><u>YouTube</u></a>).
       </p>
       <br />
       <p>
